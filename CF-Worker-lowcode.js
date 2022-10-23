@@ -28,6 +28,13 @@ async function handleRequest(request) {
       ? fetch("https://http.cat/" + httpStatusCode)
       : new Response("That's not a valid HTTP status code.");
   }
+  
+  if (pathname.startsWith("/check")) {
+    const httpStatusCode = Number(pathname.split("#")[1]);
+    const url = 'https://photridcity.com/flw/ajax/f'
+    let z = await fetch(url)
+    console.log(z)
+  }
 
 
   return fetch("https://welcome.developers.workers.dev");
