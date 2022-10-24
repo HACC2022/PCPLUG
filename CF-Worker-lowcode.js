@@ -28,12 +28,20 @@ async function handleRequest(request) {
       ? fetch("https://http.cat/" + httpStatusCode)
       : new Response("That's not a valid HTTP status code.");
   }
-  
+
   if (pathname.startsWith("/check")) {
-    const httpStatusCode = Number(pathname.split("#")[1]);
-    const url = 'https://photridcity.com/flw/ajax/f'
-    let z = await fetch(url)
-    console.log(z)
+    const encodedurl = pathname.split("/")[2];
+    const url = atob(encodedurl);
+    console.log(url);
+    let url2 = "https://www.google.com/"
+    let req = new Request(url, { Method: 'HEAD'}); // https://developers.cloudflare.com/workers/examples/modify-request-property/
+    let z = await fetch(req);
+    console.log(z);
+    let result = "OK"
+    if(z.redirected){result = "Redirected"}
+    if(!z.ok){result = "Error"}
+
+    return new Response(JSON.stringify({res: result, endurl : z.url }, {headers: { "Content-Type": "application/json" },}))    ;
   }
 
 
