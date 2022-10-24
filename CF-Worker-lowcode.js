@@ -33,15 +33,17 @@ async function handleRequest(request) {
     const encodedurl = pathname.split("/")[2];
     const url = atob(encodedurl);
     console.log(url);
-    let url2 = "https://www.google.com/"
-    let req = new Request(url, { Method: 'HEAD'}); // https://developers.cloudflare.com/workers/examples/modify-request-property/
-    let z = await fetch(req);
-    console.log(z);
+    let url2 = "http://8.8.8.8/"
+    let req = new Request(url2, { Method: 'HEAD', signal: AbortSignal.timeout(10000),}); // https://developers.cloudflare.com/workers/examples/modify-request-property/
+
+
     let result = "OK"
+    try{ let z = await fetch(req); }
+    catch(err){ return new Response(JSON.stringify({res:err.name }, {headers: { "Content-Type": "application/json" },})) }
+    
     if(z.redirected){result = "Redirected"}
     if(!z.ok){result = "Error"}
-
-    return new Response(JSON.stringify({res: result, endurl : z.url }, {headers: { "Content-Type": "application/json" },}))    ;
+    return new Response(JSON.stringify({res: result }, {headers: { "Content-Type": "application/json" },}))    ;
   }
 
 
