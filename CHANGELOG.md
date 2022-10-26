@@ -23,3 +23,7 @@ Oct 22: (4 hour) Selected Cloudflare Workers out of the available options due to
 Cost is extremely low, free covers most use cases and would be cheaper than Azure or Google. 100,000 request per day are free and 1.5 million request per month could cost less than $5 a month. 
 -----------------
 Oct 23: (0hr) Transfered work thus far from Cloudflare Workers to Github, complied CHANGELOG and committed
+---
+Oct 24th: (3 hr) Built automation bot and linkc checking for new links,
+----
+Oct 25th: (2 hr) Learn Budibase API and get CF worker connected to the budibase api
