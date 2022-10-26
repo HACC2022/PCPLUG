@@ -1,0 +1,2 @@
+Budibase has no function to base64 encode or decode data so the automation system has a code shim from base64 licensed under MIT License insertlink here
+
