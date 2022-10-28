@@ -1,11 +1,13 @@
 export default {
   async fetch(request, env) {
+     console.log(request)
     return await handleRequest(request).catch(
       (err) => new Response(err.stack, { status: 500 })
     )
   }
 }
-const budiApi = "https://edit.hacc.ga/api/public/v1/tables/ta_6bc0c2af92e94a6cb04c0a6d8ea9ee38/rows/search"
+const budiApiGet = "https://edit.hacc.ga/api/public/v1/tables/ta_6bc0c2af92e94a6cb04c0a6d8ea9ee38/rows/search"
+const budiApiSet = "https://edit.hacc.ga/api/public/v1/tables/ta_62932153e9b141cf970ca23e21721c73/rows"
 
 /**
  * Many more examples available at:
@@ -59,19 +61,39 @@ const body = {  query : {        "string": {"shortcode": pathname.substring(1)},
   }},
   limit: 1
 };
-const init = {
+let init = {
     body: JSON.stringify(body),
     method: 'POST',
     headers: {
           'accept': "application/json",
-    'x-budibase-app-id': "app_dev_731acc3a5d304eca904f5e326e69a669",
+    'x-budibase-app-id': "app_731acc3a5d304eca904f5e326e69a669",
     'content-type': "application/json",
     'x-budibase-api-key': "9b546f8e88a2e9ee2277ddf84500b0f5-55ca69dd4c128c122f34492849be2e5ac15f7d70e39fee08bc702361000d9473e9b0fbc81df63463"
 }
   };
-  const response = await fetch(budiApi, init);
+  const response = await fetch(budiApiGet, init);
   let x = await response.json();
-  console.log(x.data[0].url )
+  if(x.data.length === 0 )
+  {return new Response('Not found, invalid shortcode') }
+  else{
+
+    init = {
+    body: JSON.stringify({shortcode: pathname.substring(1)}),
+    method: 'POST',
+    headers: {
+    'accept': "application/json",
+    'x-budibase-app-id': "app_731acc3a5d304eca904f5e326e69a669",
+    'content-type': "application/json",
+    'x-budibase-api-key': "9b546f8e88a2e9ee2277ddf84500b0f5-55ca69dd4c128c122f34492849be2e5ac15f7d70e39fee08bc702361000d9473e9b0fbc81df63463"
+    }
+
+}
+
+ fetch(budiApiSet, init);
+
+}
+    
+  
 
     return Response.redirect(x.data[0].url, 307);
 }
