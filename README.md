@@ -31,7 +31,7 @@ We also assume you have a domain registered for use and are familiar with DNS. (
   
 Once those preconditions are met, deployment should take **less than 5 minutes.**  
   
-1. Open your Budibase Builder and save the API key for your account.![enter image description here](https://files.readme.io/7b29204-Capture.PNG)![enter image description here](https://files.readme.io/5ddaa4f-Capture.PNG)  
+1. Open your Budibase Builder and save the API key for your account.
 2. Press **Create new app**, then press Import App and import the file [WikiWikiLink-Budibase.txt](https://github.com/HACC2022/PCPLUG/blob/main/WikiWikiLink-Budibase.txt "WikiWikiLink-Budibase.txt") with the name **WikiWikiLink**.  
 3. Edit the new App in Budibase and retrieve the app ID, Links table ID, Tracking table ID. By clicking on each table in the **Data** tab you can see the IDs change in the url for example `https://edit.hacc.ga/builder/app/app_dev_731acc3a5d304eca904f5e326e69a669/data/table/ta_6bc0c2af92e94a6cb04c0a6d8ea9ee38` contains the app ID "**app_dev_731acc3a5d304eca904f5e326e69a669**" and table ID "**ta_6bc0c2af92e94a6cb04c0a6d8ea9ee38**"  
 4. In the **Data** tab, select the Cloudflare Worker source for "**/check**" and set a new Bearer Token for security reasons. This token protects the Cloudflare Worker from abuse.  
