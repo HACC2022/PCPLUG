@@ -67,6 +67,9 @@ The following automated Bots are preloaded in the Automation tab on Budibase. Bo
   
   
 ## How we built it  
+
+We spent about 40 hour collectively to build the app, a breif [timeline is avaliable](https://github.com/HACC2022/PCPLUG/blob/main/CHANGELOG.md).
+
 The software used to build this app include:  
   
 [Budibase Low Code Platform](https://github.com/Budibase/budibase)  
