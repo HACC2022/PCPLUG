@@ -5,7 +5,7 @@
 ***Wiki*** is the Hawaiian word for quick or fast, and **WikiWikiLink** aims to be the number one quick and fast link compressor.  
   
 ## Live Test Deployment  
-A live deployment can be access at the time of this commit. For security reasons, [credentials for this application demo are provided here](https://cl1p.net/uqzrcoawcreek) and may expire after 30 days.  
+A live deployment can be accessed at the time of this commit. For security reasons, [credentials for this application demo are provided here](https://cl1p.net/uqzrcoawcreek) and may expire after 30 days.  
   
 Link Manager (Budibase): [edit.hacc.ga/app/wikiwikilink](https://edit.hacc.ga/app/wikiwikilink)  
   
@@ -26,11 +26,12 @@ Smart automated robots ('**Bots**') are built into the application. When links a
 WikiWikiLink utilizes a two part serverless design for security. The **Budibase** back-end low code platform to handle security and link management is paired with a low code **Cloudflare Worker** that is distributed and automatically scaled in datacenters around the globe. With **Budibase** it is easy to self-host and secure the application how you want it, while utilizing **Cloudflare Workers** global platform for high performance redirects.  
   
 ## Deployment  
+Once these preconditions are met, deployment should take **less than 5 minutes.** Don't believe us? Watch our [functional demo video](https://www.youtube.com/watch?v=1QGMOmCCHtM) where we do the deployment!
+
 Deployment is simple, you must signup for both **Budibase** and **Cloudflare Workers** code platform. You may choose to self-host **Budibase**, instructions for self-hosting are outside the scope of the document. We assume you have [created additional administrator users](https://docs.budibase.com/docs/adding-users) needed to control link shortening as well as [SMTP for Budibase](https://docs.budibase.com/docs/email) Bot emails.  
   
 We also assume you have a domain registered for use and are familiar with DNS. (See "Preconditions" on Challenge). We chose Cloudflare for our DNS provider since we are using their Workers product, however you can use your own nameserver, other providers are out of the scope of this document  
-  
-Once those preconditions are met, deployment should take **less than 5 minutes.**  
+   
   
 1. Open your Budibase Builder and save the API key for your account.
 2. Press **Create new app**, then press Import App and import the file [WikiWikiLink-Budibase.txt](https://github.com/HACC2022/PCPLUG/blob/main/WikiWikiLink-Budibase.txt "WikiWikiLink-Budibase.txt") with the name **WikiWikiLink**.  
