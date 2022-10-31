@@ -16,6 +16,7 @@ We look over the rules and determined that there are no specific guidelines on l
 
 Oct 18: (2 hr) Test automated Budibase bots  for checking dead links and determined we cannot make external HTTP request unless REST, we plan to use one low code component to handle external HTTP GETs and incoming requests. 
 (1hr) Create random URL short code generator using a reduced character set that excludes similar characters like o , O, and 0 and l, i, l, and 1. Thank you to Steve Gibson of GRC and Security Now! for the character set. We highly recommend their cybersecurity podcast, more information about the charset see: https://www.grc.com/ppp.htm
+
 -----------------
 
 Oct 19: (0 hr) Transferred work thus far from Budibase to Github and start README
