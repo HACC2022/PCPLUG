@@ -7,7 +7,7 @@ The apps built with Budibase do not package any GPLv3 licensed code, thus the co
 
 ## Cloudflare Workers
 
-Workers is under [Cloudflare Terms of Service] (https://www.cloudflare.com/supplemental-terms/). Code for the Workers contain copies of Cloudflare's example code which is [dual licensed](https://developers.cloudflare.com/fundamentals/api/licenses/) under the MIT License and the Apache License Version 2.0. 
+Workers is under [Cloudflare Terms of Service](https://www.cloudflare.com/supplemental-terms/). Code for the Workers contain copies of Cloudflare's example code which is [dual licensed](https://developers.cloudflare.com/fundamentals/api/licenses/) under the MIT License and the Apache License Version 2.0. 
 
 ## PCPLUG Code and Exported Apps
 Since all code within our applications fall under the MIT License, Team PC PLUG releases this whole repository and related documentations and submissions under the MIT License
