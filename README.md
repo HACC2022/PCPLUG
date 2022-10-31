@@ -112,7 +112,7 @@ Team PCPLUG is comprised of volunteer gamers, we are not professional programmer
 
 Lip Tran is a student at the University of Hawaii Manoa and brings the marketing and entrepreneurial knowledge he used to build PC PLUG HAWAII as our team's director and graphics consultant.
 
-[Ross Higa](https://rosshiga.com/) studied Computer Engineering at the University of Hawaii Manoa and is currently a student at Western Governors University. He brings 15 years of IT service and Linux experience to our team as the sole developer.
+[Ross Higa](https://rosshiga.com/) studied Computer Engineering at the University of Hawaii Manoa and is a student at Western Governors University. He brings 15 years of IT service and Linux experience to our team as the sole developer.
   
 ## Thank you (Mahalo)
 
@@ -130,4 +130,4 @@ The country of [Gabon](http://www.my.ga/en/index.html?lang=en), for allowing us 
   
 [Matt Gauger](https://github.com/mathias) of Github, who does not know we exist but **Matt your base64 code saved our whole application!**  
 
-And of course HACC Sponser and the State of Hawaii for putting on this years show!
+And of course HACC Sponsors and the State of Hawaii for putting on this year's show!
