@@ -5,11 +5,15 @@ Oct 15: (1hr) Mock up CRUD model, basic fields determined to be ["Auto ID","Crea
 Oct 16: (4 hr) Build basic CRUD model in Budibase with planned database model. This was done without team planning to generate ideas ahead of time
  
 Planning meeting took place and here is a copy of the planning notes: 
+
 No code portion: Using a platform (node-red, appsheet, power apps, airtable, budibase, nocodb, n8n, or some other no code framework even like MS Access) to create a GUI for a basic CRUD database. Database needs to at least 3 CURD fields, link target, short code, and hits. The GUI will let authorized users create and update the link targets in between.
+
 Low code portion: Simple portable program that will function as an HTTP server, will query from the no code datastore and return a redirect on a key match. Some sort of logic on the no code side hopefully that will update the hit counter when the query happens for that row. This could be written in any language but we prefer python. http.server module is in the python 3 standard library we think a simple API call like this will end up being less than 20 total code lines of python.
 To get the HTTPS we will either use reverse proxy service via Cloudflare or set up Nginix Proxy Manager as a docker and have it pull Let's Encrypt certificates.
 Additional low code ideas: We could have a program that will check all the links in the database periodically and turns them off if they do not return a 200 OK. That would catch 404s and redirects. Less sure we can accomplish this in a 'low code' format. Estimated that this program would be significantly bigger than the portable agent above.
+
 A lot of no code stuff will not let us control headers or do re-directs, so we feel like a low code agent is needed and we can't build the the whole system in one no code platform and have to write a very small amount of code.
+
 We look over the rules and determined that there are no specific guidelines on low vs no code. We decide that a microservice (very tiny program), less than 50 lines and 1 kilobyte, would both meet sprit of the challenge and challenge us to write efficient code. We also decide it would be unduly costly and burdensome to spin up a full server. In the sprit of the low code challenge we elect to use a serverless system. With a serverless function do not need to write any code to handle HTTP, SSL, or any other of the acronyms if our logic does not need it. Serverless uses a pre-build, reduced feature, low code platform that abstracts the most difficult parts away and let us focus only logic of our application.
 
 -----------------
