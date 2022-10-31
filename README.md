@@ -1,5 +1,5 @@
 # WikiWikiLink  
-**WikiWikiLink** is a secure low code URL link shortener for sensitive domain names such as .GOV, .MIL, and .EDU designed by Team PCPLUG. Built as a serverless application, there is no machines or servers to manage.  
+**WikiWikiLink** is a secure low code URL link shortener for sensitive domain names such as .GOV, .MIL, and .EDU designed by Team PCPLUG. Built as a serverless application, there are no machines, dependencies, or servers to manage.  
   
 ***Wiki*** is the Hawaiian word for quick or fast, and **WikiWikiLink** aims to be the number one quick and fast link compressor.  
   
