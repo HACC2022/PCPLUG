@@ -65,6 +65,8 @@ base64 is a small section of javascript that encodes URLs to be sent over the ne
 ## Inspiration
 WikiWikiLink draws inspiration from existing URL shortening services like tinyurl.com and bit.ly. Our team knows that these services come with limited security and are not flexible unless you pay for additional packages. Traditionally to replace these services you would need new infrastructure with custom code that requires both lengthy development and security audits. We utilize low code platforms to cut down on both development time and reduce our attack surface.
 
+Color and style was loosely inspired by the State of Hawaii Web Style Guide: https://styleguide.ehawaii.gov/themes/
+
 **WikiWikiLink is dedicated to Taylor Swift and her new album *Midnights***
 
 Our team thanks her for the inspiration to keep coding through the midnight. 
