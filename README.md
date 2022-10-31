@@ -5,7 +5,9 @@
 A live deployment can be access at the time of this commit. For security reasons, [credentials for this application demo are provided here](https://cl1p.net/uqzrcoawcreek) and may expire after 30 days.
 
 Link Manager (Budibase): [edit.hacc.ga/app/wikiwikilink](https://edit.hacc.ga/app/wikiwikilink)
+
 Redirecting Domain: [hacc.ga](https://hacc.ga/)
+
 Sample redirect to HACC22 Slack: https://hacc.ga/slack
 
 ## ✨ Features
@@ -45,9 +47,13 @@ A user can request a new link directly from the Budibase app.
 
 ## How we built it
 The software used to build this app include:
+
 [Budibase Low Code Platform](https://github.com/Budibase/budibase) (Platform EULA, self host GPLv3)
+
 [Cloudflare Workers Platform](https://developers.cloudflare.com/fundamentals/api/licenses/) (Platform EULA, sample code MIT, documentation  CC-BY-SA 4.0)
+
 [base64](https://github.com/mathiasbynens/base64) by @mathias (MIT)
+
 
 Budibase is one of the latest and best no code platform tools trusted by companies including P&G, Netflix, Louis Vuitton, Google, and Tesla. It provided both a database and admin control panel
 
