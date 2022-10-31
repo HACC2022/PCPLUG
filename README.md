@@ -5,7 +5,7 @@
 ***Wiki*** is the Hawaiian word for quick or fast, and **WikiWikiLink** aims to be the number one quick and fast link compressor.  
   
 ## Live Test Deployment  
-A live deployment can be accessed at the time of this commit. A [functional demonstration video](https://www.youtube.com/watch?v=1QGMOmCCHtM) is avaliable.
+A live deployment can be accessed at the time of this commit. A [functional demonstration video](https://www.youtube.com/watch?v=1QGMOmCCHtM) is avaliable. The cost of this deployment is covered by free usage of Cloudflare Workers and Budibase.
 
 For security reasons, [credentials for this application demo are provided here](https://cl1p.net/uqzrcoawcreek) and may expire after 30 days.  
   
