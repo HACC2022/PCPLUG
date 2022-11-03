@@ -76,7 +76,7 @@ The software used to build this app include:
   
 [Cloudflare Workers Platform](https://developers.cloudflare.com/fundamentals/api/licenses/)  
   
-[base64](https://github.com/mathiasbynens/base64) javascript shim by [Matt Gauger](https://github.com/mathias)  
+[base64](https://github.com/mathiasbynens/base64) javascript shim by [Mathias Bynens](https://github.com/mathiasbynens)  
   
   
 Budibase is one of the latest and best no code platform tools trusted by companies including P&G, Netflix, Louis Vuitton, Google, and Tesla. It provided both a database and admin control panel to help jump start development. We utilize the Budibase API for our Worker to access data within Budibase.  
@@ -128,6 +128,6 @@ The country of [Gabon](http://www.my.ga/en/index.html?lang=en), for allowing us 
   
 [Budibase](https://formidable.com/open-source/), especially Joe Johnston who reached out to our team and supported us as students  
   
-[Matt Gauger](https://github.com/mathias) of Github, who does not know we exist but **Matt your base64 code saved our whole application!**  
+[Mathias Bynens]( Mathias Bynens ) of Google, who does not know we exist but **Matt your base64 code saved our whole application!**  
 
 And of course HACC Sponsors and the State of Hawaii for putting on this year's show!
