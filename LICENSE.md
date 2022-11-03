@@ -35,7 +35,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ----------------
 
-Exported app contains [base64](https://github.com/mathiasbynens/base64) javascript shim by [Matt Gauger](https://github.com/mathias) licnesed under the MIT License.
+Exported app contains [base64](https://github.com/mathiasbynens/base64) javascript shim by [Mathias Bynens](https://github.com/mathiasbynens) licnesed under the MIT License.
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
