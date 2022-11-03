@@ -128,6 +128,6 @@ The country of [Gabon](http://www.my.ga/en/index.html?lang=en), for allowing us 
   
 [Budibase](https://formidable.com/open-source/), especially Joe Johnston who reached out to our team and supported us as students  
   
-[Matt Gauger](https://github.com/mathias) of Google, who does not know we exist but **Matt your base64 code saved our whole application!**  
+[Matt Gauger](https://github.com/mathias) of Github, who does not know we exist but **Matt your base64 code saved our whole application!**  
 
 And of course HACC Sponsors and the State of Hawaii for putting on this year's show!
