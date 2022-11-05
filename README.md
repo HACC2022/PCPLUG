@@ -128,6 +128,6 @@ The country of [Gabon](http://www.my.ga/en/index.html?lang=en), for allowing us 
   
 [Budibase](https://formidable.com/open-source/), especially Joe Johnston who reached out to our team and supported us as students  
   
-[Mathias Bynens]( Mathias Bynens ) of Google, who does not know we exist but **Matt your base64 code saved our whole application!**  
+[Mathias Bynens](https://github.com/mathiasbynens/base64) of Google, who does not know we exist but **Mathias your base64 code saved our whole application!**  
 
 And of course HACC Sponsors and the State of Hawaii for putting on this year's show!
